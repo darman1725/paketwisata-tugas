@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TOUR & TRAVEL BALI</title>
+        <!-- Menyisipkan Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="fonts/font-awesome.min.css">
+        <link rel="stylesheet" href="style2.css">
+        <script type="text/javascript" src="jquery-3.5.1.js"></script>
+        <!-- Menyisipkan Javascript-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <style>
+          #signup {
+            color: #0099FF;
+            font-family: "Raleway", sans-serif;
+            font-size: 10pt;
+            margin-top: 16px;
+            text-align: center;
+          }
+        </style>
+    </head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-md" style="background-color:burlywood;">
+        <div class="container">
+        <img src="img/logo.png" width="65px">
+        <a class="navbar-brand" href="" style="color:black;"><h4>TOUR AND TRAVEL BALI</h4></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        </div>
+        </div>
+    </nav>
+
+    <div id="card">
+      <div id="card-content">
+        <div id="card-title">
+          <h2>LOGIN</h2>
+        </div>
+        <form action="proseslogin.php" method="POST" class="form">
+          <label for="user-username" style="padding-top:13px">&nbsp;Username</label>
+          <input id="user-username" class="form-content" type="username" name="username" autocomplete="on" required />
+          <div class="form-border"></div>
+          <label for="user-email" style="padding-top:13px">&nbsp;Email</label>
+          <input id="user-email" class="form-content" type="email" name="email" autocomplete="on" required />
+          <div class="form-border"></div>
+          <label for="user-password" style="padding-top:22px">&nbsp;Password</label>
+          <input id="user-password" class="form-content" type="password" name="password" required />
+          <div class="form-border"></div>
+          <input id="submit-btn" type="submit" name="submit" value="LOGIN" />
+          <a href="register.php" id="signup">Don't have account yet? Register</a>
+        </form>
+      </div>
+    </div>
+</body>
+</html>

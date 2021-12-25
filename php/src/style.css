@@ -1,0 +1,228 @@
+.warna-bg{
+    background: #FAFAD2;
+}
+
+.jumbotron {
+    background-color: burlywood;
+    width: 100%;
+    height: 250px;
+}
+
+.jumbotronkonten {
+    background-color: rgb(226, 226, 226);
+    padding-left: 15%;
+    padding-right: 25%;
+    width: 100px;
+    color: rgb(255, 255, 255);
+}
+
+.jumbotronmenu3 {
+    background-color: burlywood;
+
+}
+
+.bg-darksalmon{
+    background-color: #E9967A;
+    color: #fff;
+}  
+
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link{
+    color: #fff;
+}
+
+.nav-item.active{
+    background-color: #CC9966;
+}
+
+footer{
+    background-color: burlywood;
+    padding: 80px 0;
+}
+
+footer .brand{
+    display: flex;
+}
+
+footer .brand img{
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+
+footer .brand h1{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+#demo {
+    height:100%;
+    position:relative;
+    overflow:hidden;
+  }
+  
+  
+.green{
+    background-color:#6fb936;
+  }
+
+.thumb{
+    margin-bottom: 30px;
+}
+          
+.page-top{
+        margin-top:30px;
+    }
+
+.modal-header {
+        
+        border-bottom: none;
+    }
+
+.modal-title {
+        color:#000;
+      }
+
+.modal-footer{
+        display:none;  
+    }
+
+.button {
+        float:right;
+        font-size: 16px;
+        background-color: lightgray;
+        margin:10px;
+        width: 80px;
+    }
+.price {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        text-align: left;
+        margin-left: 40px;
+    }
+
+#name, #hp, #address, #email, #wisata, #kendaraan {
+        border: 1px solid #5A9AD4;
+        width: 10cm;
+        height: 30px;
+    }
+#name, #hp {
+        margin-left: 100px;
+    }
+
+#address {
+        margin-left: 95px;
+    }
+
+#email {
+        margin-left: 165px;
+    }
+
+#wisata {
+        margin-left: 80px;
+    }
+#kendaraan {
+        margin-left: 60px;
+    }
+
+#count {
+        margin-top: 20px;
+        justify-content: left;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+.p1, .p2, .p3, .p4, .p5, .p6, .p7 {
+        letter-spacing: 2px;
+    }
+
+#judul {
+        text-align: center;
+    }
+.container-satu {
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-areas: "sidebar-satu kolom-utama" ;
+    align:center;
+}
+
+
+.kolom-utama{
+    grid-area:kolom-utama;
+    margin-left: 30px;
+    padding: 60px;
+    text-align:justify;
+    background-color: rgb(226, 226, 226);
+    
+}
+
+.sidebar-satu{
+    grid-area:sidebar-satu;
+    padding: 10px;
+}
+
+
+.judul {
+    text-align: center;
+}
+
+.tambah {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    margin-left: 40px;
+}
+
+
+.tambahData {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.editData {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    margin-left: 40px;
+}
+#id, #jenispaket, #harga, #keterangan, #jenismobil {
+    border: 1px solid #5A9AD4;
+    width: 5cm;
+    height: 30px;
+}
+
+#id {
+margin-left: 110px;
+}
+
+#jenispaket {
+    margin-left: 50px;
+    }
+
+#harga {
+margin-left: 80px;
+}
+
+#keterangan {
+margin-left:45px;
+}
+
+#konten {
+    background-color: darkslategray;
+}
